@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sagittarius"
+    tools:context=".SagittairusFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:fontFamily="cursive"
+        android:text="They are independent, free-spirited, active, dynamic, sporty, and have a strong sense of exploration and adventure. Sagittarius women are typically filled with a desire for discovery and learning, always in search of new experiences, and approach life with a positive outlook. Sagittarius men are known for their adventurous and free-spirited personalities."
+        android:textAlignment="inherit"
+        android:textColor="@color/eyesblue"
+        android:textSize="20dp" />
+
+</FrameLayout>

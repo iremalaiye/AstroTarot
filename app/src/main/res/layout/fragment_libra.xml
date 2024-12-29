@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/libra"
+    tools:context=".LibraFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:fontFamily="cursive"
+        android:text="Libra women are known for their fair, egalitarian, balanced, harmonious, calm, patient, intelligent, and polite nature. They have an eye for balance, harmony, and aesthetics. Libra women are often interested in beauty, fashion, and the arts. Libra men are recognized for their harmonious and balanced personalities. They typically have strong diplomatic and negotiation skills and get along well with others."
+        android:textAlignment="inherit"
+        android:textColor="@color/eyesblue"
+        android:textSize="20dp" />
+
+</FrameLayout>

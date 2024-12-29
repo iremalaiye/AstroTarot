@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/leo"
+    tools:context=".LeoFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:fontFamily="cursive"
+        android:text="Leo individuals are confident, proud, protective, and glamorous. They are passionate about art and aesthetics. Leo women are known for their self-confidence, generosity, and leadership qualities. They often have a striking personality and can be a bit spoiled at times. Leo men are recognized for their confidence and generosity. They have strong leadership traits and are usually successful in their careers."
+        android:textAlignment="inherit"
+        android:textColor="@color/eyesblue"
+        android:textSize="20dp" />
+
+</FrameLayout>

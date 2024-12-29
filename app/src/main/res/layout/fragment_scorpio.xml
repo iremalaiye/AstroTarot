@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scorpio"
+    tools:context=".ScorpioFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:fontFamily="cursive"
+        android:text="They are competitive, strong, relentless, and ambitious individuals. Just when you think they’ve given up, they can rise again from the ashes. Scorpio women are known for their passionate, determined, and mysterious personalities. Scorpio men often have an air of mystery and stand out with their strong emotions. They are also loyal and protective by nature."
+        android:textAlignment="inherit"
+        android:textColor="@color/eyesblue"
+        android:textSize="20dp" />
+
+</FrameLayout>

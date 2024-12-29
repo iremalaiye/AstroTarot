@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/eyes_logo_begin"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/eyes_logo_begin_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AstroTarot"
+        tools:targetApi="31">
+        <activity
+            android:name=".LoveCareerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".TarotChoosing"
+            android:exported="false" />
+        <activity
+            android:name=".TarotSection"
+            android:exported="false" />
+        <activity
+            android:name=".ZodiacSection"
+            android:exported="false" />
+        <activity
+            android:name=".FortuneSection"
+            android:exported="true" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

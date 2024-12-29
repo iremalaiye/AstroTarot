@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/virgo"
+    tools:context=".VirgoFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:fontFamily="cursive"
+        android:text="Virgo women are known for their meticulous, hardworking, perfectionist, critical, detail-oriented, diligent, and service-oriented nature. They are practical, analytical, and organized in personality. Virgo women are typically successful in their professional lives and possess a perfectionist attitude. Virgo men share similar traits, being practical and analytical. They are often successful in their careers and pay close attention to details."
+        android:textAlignment="inherit"
+        android:textColor="@color/eyesblue"
+        android:textSize="20dp" />
+
+</FrameLayout>

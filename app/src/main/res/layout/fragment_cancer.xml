@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cancer"
+    tools:context=".CancerFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:fontFamily="cursive"
+        android:text="
+Cancer individuals are devoted to their home, mother, family, and country. They are sensitive, caring, interested in food and dining, and have a passion for historical topics. They also possess musical talent. Cancer women are known for their emotional, loving, and loyal personalities. They are often self-sacrificing for their families and loved ones. Cancer men are typically sensitive and emotional, which leads them to try to protect themselves."
+        android:textAlignment="inherit"
+        android:textColor="@color/eyesblue"
+        android:textSize="20dp" />
+
+</FrameLayout>

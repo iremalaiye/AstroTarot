@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capricorn"
+    tools:context=".CapricornFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:fontFamily="cursive"
+        android:text="They are serious, calm, sometimes distant when needed, organized, disciplined, and career-focused. Capricorn women are known for their hardworking, disciplined, and ambitious personalities. Additionally, Capricorn women have a serious and loyal nature. Capricorn men are typically successful in their professional lives and put in all the necessary effort to achieve their goals."
+        android:textAlignment="inherit"
+        android:textColor="@color/eyesblue"
+        android:textSize="20dp" />
+
+</FrameLayout>

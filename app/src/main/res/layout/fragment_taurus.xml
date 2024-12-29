@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/taurus"
+    tools:context=".TaurusFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:fontFamily="cursive"
+        android:text="Taurus individuals are reliable, comfort-loving, food enthusiasts, gourmets, and tend to struggle with taking action. Taurus women are known for their patient, loyal, and practical personalities. They generally value beauty and aesthetics. Taurus men are recognized for their patience and loyalty. However, they can be a bit stubborn and may stick firmly to their decisions."
+        android:textAlignment="inherit"
+        android:textColor="@color/eyesblue"
+        android:textSize="20dp" />
+
+</FrameLayout>
