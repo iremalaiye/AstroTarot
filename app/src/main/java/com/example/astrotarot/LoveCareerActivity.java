@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,10 +12,19 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+
+import com.example.astrotarot.tarotAdapter.Tarot;
+import com.example.astrotarot.tarotAdapter.TarotAdapter;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class LoveCareerActivity extends AppCompatActivity {
 
     private Button btnlove;
     private Button btncar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +36,8 @@ public class LoveCareerActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+
 
         btnlove = findViewById(R.id.btnlove);
         btncar=findViewById(R.id.btncar);
