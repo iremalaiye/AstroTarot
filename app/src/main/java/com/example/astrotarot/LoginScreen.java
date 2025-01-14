@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
+//iremalaiye
 public class LoginScreen extends AppCompatActivity {
     private Button loginButton;
     private Button signupButton;

@@ -1,5 +1,5 @@
 package com.example.astrotarot.tarotFragment;
-
+//iremalaiye
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -61,7 +61,7 @@ public class TarotFragmentCareer extends Fragment {
         tarotListView = rootView.findViewById(R.id.tarot_listview);
 
         // Initialize tarot list and adapter
-        tarotList = new ArrayList<>();
+        tarotList = new ArrayList<Tarot>();
         tarotAdapter = new TarotAdapter(requireActivity(), tarotList);
         tarotListView.setAdapter(tarotAdapter);
 

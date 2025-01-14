@@ -1,5 +1,5 @@
 package com.example.astrotarot;
-
+//iremalaiye
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;

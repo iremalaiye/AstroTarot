@@ -1,5 +1,5 @@
 package com.example.astrotarot.tarotFragment;
-
+//iremalaiye
 public class Tarot {
 
     private int id;

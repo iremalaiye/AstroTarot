@@ -17,7 +17,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.auth.FirebaseAuth;
-
+//iremalaiye
 public class Register extends AppCompatActivity {
 
     private EditText editTextEmail, editTextPassword;
