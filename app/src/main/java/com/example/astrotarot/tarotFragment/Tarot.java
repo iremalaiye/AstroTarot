@@ -1,8 +1,9 @@
-package com.example.astrotarot.tarotAdapter;
+package com.example.astrotarot.tarotFragment;
 
 public class Tarot {
 
     private int id;
+    private String title;
     private String description;
 
     public int getId() {
@@ -21,8 +22,17 @@ public class Tarot {
         this.description = description;
     }
 
-    public Tarot(int id, String description) {
+    public Tarot(int id, String description,String title) {
+        this.title = title;
         this.id = id;
         this.description = description;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }

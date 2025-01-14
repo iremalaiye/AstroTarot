@@ -13,6 +13,18 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.astrotarot.horoscopeFragment.AquariusFragment;
+import com.example.astrotarot.horoscopeFragment.AriesFragment;
+import com.example.astrotarot.horoscopeFragment.CancerFragment;
+import com.example.astrotarot.horoscopeFragment.CapricornFragment;
+import com.example.astrotarot.horoscopeFragment.GeminiFragment;
+import com.example.astrotarot.horoscopeFragment.LeoFragment;
+import com.example.astrotarot.horoscopeFragment.LibraFragment;
+import com.example.astrotarot.horoscopeFragment.PiscesFragment;
+import com.example.astrotarot.horoscopeFragment.SagittairusFragment;
+import com.example.astrotarot.horoscopeFragment.ScorpioFragment;
+import com.example.astrotarot.horoscopeFragment.TaurusFragment;
+import com.example.astrotarot.horoscopeFragment.VirgoFragment;
 import com.example.astrotarot.zodiacFragment.VPAdapter;
 import com.google.android.material.tabs.TabLayout;
 

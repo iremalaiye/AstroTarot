@@ -1,4 +1,4 @@
-package com.example.astrotarot;
+package com.example.astrotarot.horoscopeFragment;
 
 import android.os.Bundle;
 
@@ -8,14 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class LibraFragment extends Fragment {
+import com.example.astrotarot.R;
 
+public class TaurusFragment extends Fragment {
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_libra, container, false);
+        return inflater.inflate(R.layout.fragment_taurus, container, false);
     }
 }

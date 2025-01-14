@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/taurus"
-    tools:context=".TaurusFragment">
+    tools:context=".horoscopeFragment.TaurusFragment">
 
     <TextView
         android:layout_width="wrap_content"

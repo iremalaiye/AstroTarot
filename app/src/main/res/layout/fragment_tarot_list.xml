@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tarotsectionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Please, Choose your tarot cards"
+        android:textAlignment="center"
+        android:textColor="@color/eyesblue"
+        android:textSize="30sp"
+        android:layout_margin="16dp" />
+
+    <GridView
+        android:id="@+id/tarot_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="10dp"
+        android:numColumns="6"
+        android:padding="2dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+
+
+</LinearLayout>
