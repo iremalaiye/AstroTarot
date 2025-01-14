@@ -37,7 +37,7 @@ public class LoveCareerActivity extends AppCompatActivity {
         btnlove.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(LoveCareerActivity.this, TarotSection.class);
+                Intent intent=new Intent(LoveCareerActivity.this, TarotSectionLove.class);
                 startActivity(intent);
             }
         });
@@ -46,7 +46,7 @@ public class LoveCareerActivity extends AppCompatActivity {
         btncar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(LoveCareerActivity.this, TarotSection.class);
+                Intent intent=new Intent(LoveCareerActivity.this, TarotSectionCareer.class);
                 startActivity(intent);
             }
         });

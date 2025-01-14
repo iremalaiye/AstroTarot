@@ -1,6 +1,5 @@
 package com.example.astrotarot.tarotFragment;
 
-import android.content.Context;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -11,7 +10,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.Toast;
 
@@ -27,7 +25,7 @@ import java.util.concurrent.Executors;
 /**
  * A fragment representing a list of Items.
  */
-public class TarotFragment extends Fragment {
+public class TarotFragmentLove extends Fragment {
 
     private GridView tarotListView;
     private TarotAdapter tarotAdapter;
@@ -37,10 +35,10 @@ public class TarotFragment extends Fragment {
     private Handler mainHandler; // Main thread handler
 
     // Mandatory empty constructor
-    public TarotFragment() {}
+    public TarotFragmentLove() {}
 
-    public static TarotFragment newInstance() {
-        return new TarotFragment();
+    public static TarotFragmentLove newInstance() {
+        return new TarotFragmentLove();
     }
 
     @Override
@@ -57,7 +55,7 @@ public class TarotFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the fragment layout
-        View rootView = inflater.inflate(R.layout.fragment_tarot_list, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_tarot_love, container, false);
 
         // Initialize views
         tarotListView = rootView.findViewById(R.id.tarot_listview);
@@ -70,22 +68,13 @@ public class TarotFragment extends Fragment {
         // Fetch data from Firestore
         fetchTarotsFromFirestore();
 
-        // Set item click listener
-        tarotListView.setOnItemClickListener((parent, view, position, id) -> {
-            Tarot clickedTarot = (Tarot) tarotAdapter.getItem(position);
-            if (clickedTarot != null) {
-                Toast.makeText(requireContext(), clickedTarot.getDescription(), Toast.LENGTH_SHORT).show();
-            } else {
-                Toast.makeText(requireContext(), "No description available", Toast.LENGTH_SHORT).show();
-            }
-        });
 
         return rootView;
     }
 
     private void fetchTarotsFromFirestore() {
         executorService.execute(() -> {
-            firestore.collection("tarotDescription")
+            firestore.collection("tarotLoveDescription")
                     .get()
                     .addOnCompleteListener(task -> {
                         if (task.isSuccessful()) {

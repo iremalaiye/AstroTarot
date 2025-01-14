@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/eyes_logo_begin_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AstroTarot"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".TarotSectionCareer"
+            android:exported="false" />
         <activity
             android:name=".LoveCareerActivity"
             android:exported="false" />
@@ -22,7 +25,7 @@
             android:name=".TarotChoosing"
             android:exported="false" />
         <activity
-            android:name=".TarotSection"
+            android:name=".TarotSectionLove"
             android:exported="false" />
         <activity
             android:name=".ZodiacSection"
@@ -35,7 +38,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
