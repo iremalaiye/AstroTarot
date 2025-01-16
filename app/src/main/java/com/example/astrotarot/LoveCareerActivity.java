@@ -1,5 +1,6 @@
 package com.example.astrotarot;
-
+//sevinckocak
+// iremalaiye
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

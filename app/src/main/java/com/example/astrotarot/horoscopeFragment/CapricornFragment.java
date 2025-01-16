@@ -1,5 +1,5 @@
 package com.example.astrotarot.horoscopeFragment;
-
+//sevinckocak
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
